@@ -157,6 +157,19 @@ public class Exercise {
             System.out.println(addArray[i]);
         }
 
+        // create an array of n numbers
+        // create a sum variable
+        // create a loop
+        // add each item to the sum value
+        // outside the loop print the total sum
+        int[] nArray = {1,2,3,4,5,6,7};
+        int sum = 0;
+        for (int i=0; i<nArray.length; i++){
+            sum = sum + nArray[i];
+        }
+        System.out.println("Total Sum:" + sum);
+
+
 
     }
 }
