@@ -169,7 +169,34 @@ public class Exercise {
         }
         System.out.println("Total Sum:" + sum);
 
+        // create a for loop which goes through each string in our array
+        // make each word uppercase
+        // assign the value in the array to the uppercase string
+        // print our resulting array
+        String[] trArray = {"i", "sure", "do", "love", "bees"};
 
+        for (int i = 0; i<trArray.length; i++) {
+            System.out.println(trArray[i].toUpperCase());
+
+        }
+
+
+
+        // create an integer variable
+        // create a second integer variable
+        // create an `if` statement which compares the two variables and prints to the console if they are equal
+        int theVariable = 10;
+        int secondVariable = 10;
+        String outPut;
+        if(theVariable > secondVariable) {
+            outPut = theVariable + " " + "is greater than" + " " + secondVariable;
+        } else if (secondVariable > theVariable) {
+            outPut = secondVariable + " " + "is greater than" + " " + theVariable;
+        } else {
+            outPut = "both" + " "  + theVariable + " " + "and" + " " + secondVariable + " " + "are eaqual";
+
+        }
+        System.out.println(outPut);
 
     }
 }
